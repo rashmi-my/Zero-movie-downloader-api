@@ -1,0 +1,10 @@
+# models/__init__.py
+from .movie import Movie, MovieLink, CastMember, MovieSearchResult
+
+# scrapers/__init__.py
+from .tamil_scraper import TamilScraper
+from .hindi_scraper import HindiScraper
+from .english_scraper import EnglishScraper
+
+# services/__init__.py
+from .tmdb import TMDBService
